@@ -15,19 +15,13 @@ define('VERSION', '2.6');
 //Application Title
 define('APP_TITLE', 'Tiny File Manager');
 
-// --- EDIT BELOW CONFIGURATION CAREFULLY ---
 
-// Auth with login/password
-// set true/false to enable/disable it
-// Is independent from IP white- and blacklisting
 $use_auth = true;
 
-// Login user name and password
-// Users: array('Username' => 'Password', 'Username2' => 'Password2', ...)
-// Generate secure password hash - https://tinyfilemanager.github.io/docs/pwd.html
+
 $auth_users = array(
-    'admin' => '$2y$10$/K.hjNr84lLNDt8fTXjoI.DBp6PpeyoJ.mGwrrLuCZfAwfSAGqhOW', //admin@123
-    'user' => '$2y$10$Fg6Dz8oH9fPoZ2jJan5tZuv6Z4Kp7avtQ9bDfrdRntXtPeiMAZyGO' //12345
+    'admin' => '$2y$10$vGCVvjVcYjDMIjIjKyXyy.xGcC6LLQXqM9nZH3xg41sbGj/3dzW4G', 
+    'user' => '$2y$10$vGCVvjVcYjDMIjIjKyXyy.xGcC6LLQXqM9nZH3xg41sbGj/3dzW4G' 
 );
 
 // Readonly users
